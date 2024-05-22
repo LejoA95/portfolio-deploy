@@ -1,0 +1,105 @@
+:root {
+  --color-principal: #013047;
+  --color-secundario: #45C4B0;
+  --color-terciario: #9cf44a;
+  --color-sombra-osc: #193540;
+  --color-sombra-claro: #bebebe;
+  --color-bordes: #70707079;
+  --color-blanco: #fff;
+  --color-negro: #000;
+  --color-dorado: #efb810;
+  --color-doradocl: #f90000;
+}
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-blanco);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: var(--color-negro);
+  font-style: normal;
+}
+
+body,
+div,
+span,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+form,
+footer,
+header,
+section {
+  list-style: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.absolute_100wh {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+/* Home Page */
+
+/* page structure ppal */
+.content_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+/* Modal page */
+.content_modal {
+  background-color: var(--color-negro);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000000;
+}
+
+.title_welcome {
+  background-color: var(--color-negro);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000000;
+}
+
+
+/* logo */
+.caja_titulo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  z-index: 70000000;
+  width: 100%;
+  left: 0;
+}
